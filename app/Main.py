@@ -1,11 +1,3 @@
-# .\venv\Scripts\activate
-# uvicorn app.Main:app --reload
-#aekara.1924
-#123456789
-#1924
-#10:22:00
-
-
 
 from fastapi import FastAPI
 from . import models

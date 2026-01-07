@@ -45,7 +45,7 @@ class PostResponse(PostBase):
     owner: UserOut
   
     class Config:
-        from_attributes = True              #To orm_mode den douleyei
+        from_attributes = True              
 
 
 class PostOut(BaseModel):
@@ -65,7 +65,7 @@ class UserOut(BaseModel):
     
     
     class Config:
-        from_attributes = True              #To orm_mode den douleyei
+        from_attributes = True             
 
 
 class UserCreate(BaseModel):
