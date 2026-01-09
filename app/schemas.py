@@ -11,11 +11,11 @@ class PostBase(BaseModel):
 
 
 
-class PostCreate(PostBase):                 #KANEI EXTEND TO POSTBASE
+class PostCreate(PostBase):                
     pass
 
 
-class PostUpdate(PostBase):                 #KANEI EXTEND TO POSTBASE
+class PostUpdate(PostBase):                 
     pass
 
 
@@ -33,7 +33,7 @@ class UserOut(BaseModel):
     
   
     class Config:
-        from_attributes = True              #To orm_mode den douleyei
+        from_attributes = True             
 
 
 
